@@ -1,0 +1,57 @@
+.main{
+    margin-top: 40px;
+    display: flex;
+    align-items: self-start;
+    justify-content: center;
+    padding: 2rem;
+    background: var(--dark-bg);
+    gap: 10px;
+}
+
+.main-outer{
+    margin-top: 100px;
+}
+
+.header.active {
+    padding: 1rem;
+}
+.main .left{
+    width: 50%;
+    height: 100%;
+}
+.main .right{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 50%;
+    height: 100%;
+    flex-direction: column;
+    gap: 10px;  
+    position: sticky;
+    top: 70px;
+}
+.main .left .work{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+.w-content{
+    padding: 2rem;
+    color: var(--white);
+    background: var(--light-bg);
+    width: 100%;
+    border-radius: 10px;
+}
+.w-content .pdesc h3{
+    font-family: initial;
+    margin-bottom: 1rem;
+    color: var(--yellow);
+    font-weight: 700;
+    letter-spacing: 2.2px;
+}
+.w-content .pdesc p{
+    font-size: 15px;
+    font-family: initial;
+    letter-spacing: 1px;
+    line-height: 2.5rem;
+}
